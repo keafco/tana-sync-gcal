@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"lib": ["ESNext"],
+		"skipLibCheck": true,
+		"strict": true,
+		"types": ["vite/client", "./worker-configuration.d.ts"],
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	}
+}
